@@ -130,5 +130,13 @@ public class SortDemoData  {
                return outputBuf;            
         }        		
 }
+final class Item {
+        public int key;
+        //constructor
+        public Item(int keyValue) { 
+                key = keyValue;
+        }
+        // further components and methods/
+}
 
 
