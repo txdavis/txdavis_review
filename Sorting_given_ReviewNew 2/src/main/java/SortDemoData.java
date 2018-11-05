@@ -6,8 +6,8 @@ import java.util.*;   // for class StringTokenizer
 
 public class SortDemoData  {
                
-        public Item[] myArray;
-        public String algo;
+        private Item[] myArray;
+        private String algo;
 
         public SortDemoData(){
         	myArray = null;
