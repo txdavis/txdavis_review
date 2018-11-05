@@ -21,11 +21,11 @@ public final class SortAlgos {
                             throws NullPointerException {
                 if (vec == null) throw new NullPointerException();
         
-		        int n = vec.length-1;
+		        int n = vec.length;
 		        Item temp;
                 int bottom;       // bottom for each pass        
                 for (bottom = 1; bottom < n; bottom++)  {
-                        for (int i = n; i >= bottom; i--) {
+                        for (int i = n-1; i >= bottom; i--) {
                                 if (vec[i-1].key > vec[i].key) {
                                         temp = vec[i-1];
                                         vec[i-1] = vec[i];
